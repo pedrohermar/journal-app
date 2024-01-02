@@ -42,11 +42,11 @@ export const RegisterPage = () => {
 
   return (
     <AuthLayout title={"Crear una cuenta"}>
-      <form onSubmit={ onSubmit }>
+      <form onSubmit={ onSubmit } className="animate__animated animate__fadeIn animate__faster">
         <Grid container>
         <Grid item xs={12} sx={{ mt: 2 }}>
             <TextField
-              label="Nombre comleto"
+              label="Nombre completo"
               type="text"
               placeholder="Tu nombre"
               fullWidth
